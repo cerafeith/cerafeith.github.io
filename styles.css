@@ -4,11 +4,26 @@
 }
 
 #home {
-	background-image: url("Images/background.jpg");
-	width: 100%;
-	background-color: white;
+	background-image: white  url("Images/background.jpg") no-repeat center;
+	background-size: cover;
+	height: 98vh;
+	width: 99vw;
+	position: absolute;
 }
 
-h2 {
+#logo {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 75px;
+	height: 75px;
+}
+
+#name {
 	font-family: audrey;
+	text-align: right;
+	color: white;
+	font-size: 74px;
+	margin-top: 75vh;
+	margin-bottom: 0px;
 }
