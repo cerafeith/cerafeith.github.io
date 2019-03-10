@@ -1,4 +1,9 @@
-.body {
-	background-color: papayawhip;
+@font-face {
+	font-family: "Audrey";
+	src: url("Audrey/Audrey.otf") format("opentype");
+}
+
+.home {
+	background-image: url("Images/background.jpg");
 	width: 100%;
 }
