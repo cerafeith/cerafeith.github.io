@@ -3,9 +3,10 @@
 	src: url(Audrey/Audrey.otf) format(opentype);
 }
 
-.home {
+#home {
 	background-image: url("Images/background.jpg");
 	width: 100%;
+	background-color: white;
 }
 
 h2 {
