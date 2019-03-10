@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Audrey";
-	src: url("Audrey/Audrey.otf") format("opentype");
+	font-family: audrey;
+	src: url(Audrey/Audrey.otf) format(opentype);
 }
 
 .home {
@@ -9,5 +9,5 @@
 }
 
 h2 {
-	font-family: Audrey;
+	font-family: audrey;
 }
