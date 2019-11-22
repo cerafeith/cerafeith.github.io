@@ -1,0 +1,92 @@
+@font-face {
+	font-family: audrey;
+	src: url(Audrey/Audrey.otf) format(opentype);
+}
+
+body {
+    font-family: audrey;
+	color: black;
+    background-color:#E5E5E5;
+    min-width:400px;
+    width:100vw;
+    height:auto;
+}
+
+#home {
+	font-family: audrey;
+	color: white;
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+    background-position:center;
+    min-width:400px;
+    width:100vw;
+    height:auto;
+}
+
+#header {
+    display:flex;
+    flex-direction:row;
+    height:60px;
+}
+
+#logo {
+	width: 60px;
+}
+
+td {
+    padding:20px 0px 0px 6vw;
+}
+
+a {
+    text-decoration:none;
+}
+
+#white {
+    color:white;
+}
+
+#black {
+    color:black;
+}
+
+#name {
+	text-align: right;
+    width:96vw;
+    position:absolute;
+    bottom:0px;
+	font-size:74px;
+}
+
+#main {
+    display:flex;
+    flex-direction:row;
+    width:99vw;
+}
+
+#about {
+    width:70vw;
+    margin-top:20px;
+}
+
+#icons {
+    width:70vw;
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-content:left;
+    margin-top:50px;
+}
+
+#icon {
+    margin-bottom:20px;
+}
+
+#profile {
+    width:45vw;
+    margin:-80px 0px 0px 0px;
+}
+
+#sidebar {
+    height:100vh;
+    margin:-68px 0px 0px 40px;
+}
