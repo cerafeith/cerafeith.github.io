@@ -68,17 +68,34 @@ a {
     margin-top:20px;
 }
 
+#resume {
+    width:70vw;
+    margin-top:20px;
+    font-size: 10px;
+    vertical-align: text-top;
+}
+
+.field {
+    vertical-align: text-top;
+}
+
 #icons {
     width:70vw;
     margin-top:20px;
     display:flex;
     flex-direction:column;
-    align-content:left;
+    align-items:left;
     margin-top:50px;
 }
 
+.link {
+    display:flex;
+    flex-direction:row;
+    color:black;
+}
+
 .icon {
-    margin-bottom:20px;
+    margin:0px 10px 20px 25vw;
 }
 
 #profile {
