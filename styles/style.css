@@ -67,12 +67,13 @@ a {
 #about {
     width:70vw;
     margin-top:20px;
+    font-size: 20px;
 }
 
 #resume {
     width:70vw;
     margin-top:20px;
-    font-size: 20px;
+    font-size: 16px;
     vertical-align: text-top;
 }
 
