@@ -41,7 +41,6 @@ for(let i = 0; i < education.length; i++) {
     var row = resume.insertRow();
     var cell = row.insertCell();
     var cell2 = row.insertCell();
-    var cell3 = row.insertCell();
     cell.setAttribute("class", "field");
     var ed = education[i].instution + "<br />" +
         education[i].notes + "<br />" +
@@ -57,9 +56,9 @@ for(let i = 0; i < education.length; i++) {
 }
 
 for(let i = 0; i < experience.length; i++) {
-    var row = resume.insertRow();
-    var cell = row.insertCell();
-    var cell2 = row.insertCell();
+    var row2 = resume.insertRow();
+    var cell3 = row.insertCell();
+    var cell4 = row.insertCell();
     cell.setAttribute("class", "field");
     var ex = experience[i].institution + "<br />" +
         experience[i].position + "<br />" +
