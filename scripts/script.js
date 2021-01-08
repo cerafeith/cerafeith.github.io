@@ -59,16 +59,16 @@ for(let i = 0; i < experience.length; i++) {
     var row2 = resume.insertRow();
     var cell3 = row.insertCell();
     var cell4 = row.insertCell();
-    cell.setAttribute("class", "field");
+    cell3.setAttribute("class", "field");
     var ex = experience[i].institution + "<br />" +
         experience[i].position + "<br />" +
         experience[i].location + "<br />" +
         experience[i].time + "<br />";
-    cell2.innerHTML = ex;
+    cell4.innerHTML = ex;
     
     if(i===0) {
-        cell.innerHTML = "Experience";
+        cell3.innerHTML = "Experience";
     } else {
-        cell.innerHTML = "";
+        cell3.innerHTML = "";
     }
 }
