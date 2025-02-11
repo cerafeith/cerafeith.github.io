@@ -4,7 +4,7 @@ const education = [
         instution: "University of Saskatchewan",
         notes: "Bachelor of Science, Computer Science",
         location: "Saskatoon, SK",
-        time: "Sept. 2015 - Dec. 2020"
+        time: "Aug. 2015 - Dec. 2020"
     },
     {
         instution: "Walter Murray Collegiate Institute",
@@ -16,22 +16,31 @@ const education = [
 
 const experience = [
     {
+        institution: "SaskTel International",
+        position: "Java Software Developer",
+        location: "Saskatoon, SK (remote)",
+        time: "Nov. 2021 - Apr. 2023"
+    },
+    {
+        institution: "SaskTel",
+        position: "Senior Clerical Associate (Assignment)",
+        location: "Saskatoon, SK",
+        time: "Feb. 2021 - Oct. 2021"
+    },
+    {
         institution: "University of Saskatchewan",
         position: "TA/Marker",
         location: "Saskatoon, SK",
         time: "Sept. 2019 - Dec. 2020"
-    },
+    }
+];
+
+const volunteer = [
     {
-        institution: "Prairie Ink Restaurant and Bakery",
-        position: "Barista",
+        institution: "Your Voice is Power",
+        position: "Technical Support Volunteer",
         location: "Saskatoon, SK",
-        time: "Sept. 2016 - Sept. 2019"
-    },
-    {
-        institution: "Shopper's Drug Mart",
-        position: "Photo Lab Technician",
-        location: "Saskatoon, SK",
-        time: "May. 2015 - Aug. 2017"
+        time: "Mar. 3 - 4, 2023"
     }
 ];
 
@@ -70,5 +79,23 @@ for(let i = 0; i < experience.length; i++) {
         cell3.innerHTML = "Experience";
     } else {
         cell3.innerHTML = "";
+    }
+}
+
+for(let i = 0; i < volunteer.length; i++) {
+    var row3 = resume.insertRow();
+    var cell5 = row3.insertCell();
+    var cell6 = row3.insertCell();
+    cell5.setAttribute("class", "field");
+    var vo = volunteer[i].institution + "<br />" +
+        volunteer[i].position + "<br />" +
+        volunteer[i].location + "<br />" +
+        volunteer[i].time + "<br />";
+    cell6.innerHTML = vo;
+    
+    if(i===0) {
+        cell5.innerHTML = "Volunteer Experience";
+    } else {
+        cell5.innerHTML = "";
     }
 }
