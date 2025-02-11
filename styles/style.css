@@ -1,10 +1,5 @@
-@font-face {
-	font-family: audrey;
-	src: url(Audrey/Audrey.otf) format(opentype);
-}
-
 body {
-    font-family: audrey;
+    font-family: Arial, Helvetica, sans-serif;
 	color: black;
     background-color:#E5E5E5;
     min-width:400px;
@@ -13,7 +8,7 @@ body {
 }
 
 #home {
-	font-family: audrey;
+	font-family: Arial, Helvetica, sans-serif;
 	color: white;
     background-image:url("../images/background.jpg");
     background-size: cover;
